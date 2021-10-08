@@ -13,8 +13,6 @@ export default function CarouselNew() {
           <div className="carousel-item active">
             <div className="toi"></div>
 
-            {/* <button className="hoverBT">video</button> */}
-
             <img
               src="https://s3img.vcdn.vn/123phim/2021/04/lat-mat-48h-16177782153424.png"
               className="d-block w-100"

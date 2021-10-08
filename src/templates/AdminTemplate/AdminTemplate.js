@@ -79,6 +79,9 @@ export const AdminTemplate = (props) => {
                       <NavLink to="/admin/themfilms">Thêm Phim</NavLink>
                     </Menu.Item>
                   </SubMenu>
+                  <Menu.Item key="2" icon={<DesktopOutlined />}>
+                    <NavLink to="/home">Về Trang Chủ</NavLink>
+                  </Menu.Item>
                 </Menu>
               </Sider>
               <Layout className="site-layout">

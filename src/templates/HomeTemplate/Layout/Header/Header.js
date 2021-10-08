@@ -5,16 +5,10 @@ import { history } from "../../../../App";
 import _ from "lodash";
 import { useSelector } from "react-redux";
 import { TOKEN, USER_LOGIN } from "../../../../util/settings/config";
+
 export default function Header() {
   const { userLogin } = useSelector((state) => state.QuanLyNguoiDungReducer);
-  // const userLogin = {
-  //   taiKhoan: "anhphi",
-  //   soDT: "0398811487",
-  //   maNhom: "gp03",
-  //   maLoaiNguoiDung: "KhachHang",
-  //   hoTen: "anhphi",
-  //   email: "anhphi@gmail.com",
-  // };
+
   const renderLogin = () => {
     if (_.isEmpty(userLogin)) {
       return (
@@ -68,7 +62,7 @@ export default function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light header">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/home">
           <img
             src="./img/Bản sao BiCINE-03-02.jpeg"
             alt="asdasd"
@@ -80,7 +74,7 @@ export default function Header() {
           />
         </a>
         <button
-          className="navbar-toggler nav-bar-3cham"
+          className="navbar-toggler nav-bar-3cham jsjsjs"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -90,7 +84,7 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse js-cosa" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
@@ -129,43 +123,12 @@ export default function Header() {
                 Tin Tức
               </a>
             </li>
-
-            {/* <NavLink href=""></NavLink> */}
           </ul>
 
           {renderLogin()}
-          {/* <button
-            onClick={() => {
-              history.push("/register");
-            }}
-            className="nav-DK"
-          >
-            Đăng Ký
-          </button>
-
-          <button
-            onClick={() => {
-              history.push("/login");
-            }}
-            className="nav-DN"
-          >
-            Đăng Nhập
-          </button> */}
         </div>
 
-        <div className="nav-button">
-          {/* {renderLogin()} */}
-          {/* <button className="nav-DK">Đăng Ký</button>
-
-          <button
-            onClick={() => {
-              history.push("/login");
-            }}
-            className="nav-DN"
-          >
-            Đăng Nhập
-          </button> */}
-        </div>
+        <div className="nav-button"></div>
       </nav>
     </div>
   );

@@ -146,7 +146,7 @@ export default function Detail(props) {
                                       return (
                                         <NavLink
                                           to={`/checkout/${lichChieu.maLichChieu}`}
-                                          className="cumRap-gio col-sm-2"
+                                          className="cumRap-gio col-sm-md-lg-xl-2"
                                           key={index}
                                         >
                                           {moment(
@@ -158,23 +158,6 @@ export default function Detail(props) {
                                 </div>
                               </div>
                             </div>
-                            {/* <div className="cumRap-time row">
-                              {cumRap.lichChieuPhim
-                                ?.slice(0, 12)
-                                .map((lichChieu, index) => {
-                                  return (
-                                    <NavLink
-                                      to="/"
-                                      className="cumRap-gio col-2"
-                                      key={index}
-                                    >
-                                      {moment(
-                                        lichChieu.ngayChieuGioChieu
-                                      ).format("hh:mm A")}
-                                    </NavLink>
-                                  );
-                                })}
-                            </div> */}
                           </div>
                         );
                       })}
