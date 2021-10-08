@@ -73,13 +73,13 @@ function Checkout(props) {
         <div className="Checkout-phong col-sm-md-9  col-xl-9">
           <div className="Checkout-phong-rap">
             <div className="Checkout-phong-rap-TTR row">
-              <div className="Checkout-phong-rap-img col-sm-2">
+              <div className="Checkout-phong-rap-img col-sm-md-lg-2">
                 <img
                   src="https://s3img.vcdn.vn/123phim/2018/10/lotte-cinema-da-nang-15383885382313.jpg"
                   width="100"
                 />
               </div>
-              <div className="Checkout-phong-rap-text col-sm-10">
+              <div className="Checkout-phong-rap-text col-sm-md-lg-10">
                 <p>{thongTinPhim?.tenCumRap}</p>
                 <span>{thongTinPhim?.diaChi}</span>
               </div>
