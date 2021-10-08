@@ -44,7 +44,7 @@ export default function Profile() {
             </p>
 
             <h5>
-              Chuyển Sang Trang <NavLink to="/admin">Admin</NavLink>
+              Chuyển Sang Trang <NavLink to="/admin/films">Admin</NavLink>
               <br /> (Lưu ý sử dụng Desktop để có trải nghiệm tốt nhất)
             </h5>
           </div>

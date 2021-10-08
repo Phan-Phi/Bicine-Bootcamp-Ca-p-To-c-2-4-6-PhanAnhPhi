@@ -38,8 +38,6 @@ function App() {
         <AdminTemplate path="/admin" exact Component={Dashboard} />
         <AdminTemplate path="/admin/films" exact Component={Films} />
         <AdminTemplate path="/admin/themfilms" exact Component={ThemFilms} />
-        <AdminTemplate path="/admin/showtime" exact Component={ShowTime} />
-        <AdminTemplate path="/admin/user" exact Component={Dashboard} />
 
         <HomeTemplate path="/" exact Component={Home} />
       </Switch>

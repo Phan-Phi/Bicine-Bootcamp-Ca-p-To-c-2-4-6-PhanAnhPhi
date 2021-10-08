@@ -63,14 +63,6 @@ export const AdminTemplate = (props) => {
                   }}
                 />
                 <Menu theme="dark" defaultSelectedKeys={["1"]} mode="inline">
-                  <Menu.Item key="1" icon={<PieChartOutlined />}>
-                    <NavLink to="/admin/user">Người Dùng</NavLink>
-                  </Menu.Item>
-
-                  <Menu.Item key="2" icon={<DesktopOutlined />}>
-                    <NavLink to="/admin/showtime">ShowTime</NavLink>
-                  </Menu.Item>
-
                   <SubMenu key="sub1" icon={<DesktopOutlined />} title="User">
                     <Menu.Item key="3" icon={<DesktopOutlined />}>
                       <NavLink to="/admin/films">Films</NavLink>
