@@ -1,0 +1,47 @@
+@import "../../../../assets/variabe.style.scss";
+
+.footer-tong {
+    width: 78%;
+    margin: 0 auto;
+
+    .footer {
+        padding: 50px 0;
+        font-family: fonttextbicine;
+
+        .footer-left {
+            img {}
+
+            .footer-left-text {
+                .col-6 {
+                    p {
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+        }
+
+        .footer-cuoi {
+            p {
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        .footer-center {
+            p {
+                font-size: 20px;
+                color: white;
+            }
+
+            .footer-center-logo {
+                .col-3 {
+                    img {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

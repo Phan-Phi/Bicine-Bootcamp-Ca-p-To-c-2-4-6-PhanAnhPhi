@@ -1,0 +1,25 @@
+@font-face {
+
+    font-family: "fonttextbicine";
+    src: url(./UTMAlterGothic.ttf);
+}
+
+@font-face {
+    font-family: "fontbicine";
+    src: url(./utm-avobold.ttf);
+
+}
+
+// @font-face {
+//     font-family: "fonttextbicine";
+//     src: url(./UTMAlterGothic.ttf);
+// }
+
+$primary-blue: #80d8f7;
+$primary-blue-opacity: #61d9ee;
+$primary-white: #ffffff;
+$primary-green: #40eea5;
+$bg-color-btn: linear-gradient(100deg, #7efd9e, #2a92fd);
+$font-btn: helvetica;
+$font-btn-size: 18px;
+$font-bicine:fontbicine;

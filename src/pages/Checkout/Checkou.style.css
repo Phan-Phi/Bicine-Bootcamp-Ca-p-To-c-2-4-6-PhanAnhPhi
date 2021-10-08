@@ -1,0 +1,197 @@
+.ghe {
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+  padding: 10px;
+  border-radius: 7px;
+  margin: 7px;
+  /* border: none; */
+}
+
+button.gheDaDat {
+  background-color: #fa424b;
+
+  cursor: no-drop;
+}
+
+.gheDangDat {
+  background-color: #6fe683 !important;
+}
+
+.gheVip {
+  background-color: #f72bb3;
+}
+.gheDaDuocDat {
+  background-color: #fa424b;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+  .Checkout
+    .Checkout-tong
+    .Checkout-phong
+    .Checkout-phong-rap
+    .Checkout-phong-rap-ghe
+    .ghengoi {
+    margin-left: 0;
+  }
+  .ghe {
+    width: 17px;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    padding: 7px;
+    border-radius: 7px;
+    margin: 1px;
+    border: 0.5px;
+    font-size: 5px;
+  }
+
+  button.gheDaDat {
+    background-color: #fa424b;
+
+    cursor: no-drop;
+  }
+
+  .gheDangDat {
+    background-color: #6fe683 !important;
+  }
+
+  .gheVip {
+    background-color: #f72bb3;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .Checkout
+    .Checkout-tong
+    .Checkout-phong
+    .Checkout-phong-rap
+    .Checkout-phong-rap-ghe
+    .ghengoi {
+    margin-left: 0;
+  }
+  .ghe {
+    width: 19px;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    padding: 7px;
+    border-radius: 7px;
+    margin: 1px;
+    border: 0.5px;
+    font-size: 5px;
+  }
+
+  button.gheDaDat {
+    background-color: #fa424b;
+
+    cursor: no-drop;
+  }
+
+  .gheDangDat {
+    background-color: #6fe683 !important;
+  }
+
+  .gheVip {
+    background-color: #f72bb3;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Checkout
+    .Checkout-tong
+    .Checkout-phong
+    .Checkout-phong-rap
+    .Checkout-phong-rap-ghe
+    .ghengoi {
+    margin-left: 18px;
+  }
+  .ghe {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 2px;
+  }
+
+  button.gheDaDat {
+    background-color: #fa424b;
+
+    cursor: no-drop;
+  }
+
+  .gheDangDat {
+    background-color: #6fe683 !important;
+  }
+
+  .gheVip {
+    background-color: #f72bb3;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1118px) {
+  .Checkout
+    .Checkout-tong
+    .Checkout-phong
+    .Checkout-phong-rap
+    .Checkout-phong-rap-ghe
+    .ghengoi {
+    margin-left: 18px;
+  }
+  .ghe {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 6px;
+  }
+
+  button.gheDaDat {
+    background-color: #fa424b;
+
+    cursor: no-drop;
+  }
+
+  .gheDangDat {
+    background-color: #6fe683 !important;
+  }
+
+  .gheVip {
+    background-color: #f72bb3;
+  }
+}
+@media only screen and (min-width: 1119px) and (max-width: 1359px) {
+  .Checkout
+    .Checkout-tong
+    .Checkout-phong
+    .Checkout-phong-rap
+    .Checkout-phong-rap-ghe
+    .ghengoi {
+    margin-left: 18px;
+  }
+  .ghe {
+    width: 41px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 3px;
+  }
+
+  button.gheDaDat {
+    background-color: #fa424b;
+
+    cursor: no-drop;
+  }
+
+  .gheDangDat {
+    background-color: #6fe683 !important;
+  }
+
+  .gheVip {
+    background-color: #f72bb3;
+  }
+}

@@ -1,0 +1,9 @@
+.rapPhim {
+  background-color: red;
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rapPhim .ant-tabs-tab-active {
+  opacity: 1;
+}

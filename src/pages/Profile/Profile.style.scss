@@ -1,0 +1,225 @@
+@import "../../assets//variabe.style.scss";
+
+.Profile {
+    width: 100%;
+    margin-top: 50px;
+
+    .Profile-trang {
+        border-radius: 20px;
+
+        width: 50%;
+        height: 730px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 0 10px white;
+
+        .Profile-mau {
+            background: linear-gradient(100deg, #8d63f0, #32c5cd);
+            height: 180px;
+            text-align: center;
+            border-radius: 20px;
+
+            h1 {
+                font-family: fonttextbicine;
+                color: #8d63f0;
+                font-size: 50px;
+            }
+
+            img {
+                margin-top: 60px;
+                border-radius: 100%;
+                border: 6px solid white;
+                width: 200px;
+            }
+
+            .Profile-tttk {
+                text-align: left;
+                width: 70%;
+                margin: 0 auto;
+
+                p {
+                    margin-left: 20px;
+                    font-family: fonttextbicine;
+                    font-size: 22px;
+                }
+
+                hr {
+                    border: 1px solid #8d63f0;
+
+                }
+
+                span {
+                    font-family: fonttextbicine;
+                    font-size: 20px;
+
+                }
+
+                h5 {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .gach {
+        hr {
+            margin-top: 50px;
+            border: 1px solid white;
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media only screen and (max-width:414px) {
+
+    .Profile {
+        width: 100%;
+        margin-top: 50px;
+
+        .Profile-trang {
+            border-radius: 20px;
+            width: 85%;
+            height: 700px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px white;
+
+            .Profile-mau {
+                background: linear-gradient(100deg, #8d63f0, #32c5cd);
+                height: 180px;
+                text-align: center;
+                border-radius: 20px;
+
+                h1 {
+                    font-family: fonttextbicine;
+                    color: #8d63f0;
+                    font-size: 50px;
+                }
+
+                img {
+                    margin-top: 60px;
+                    border-radius: 100%;
+                    border: 6px solid white;
+                    width: 200px;
+                }
+
+                .Profile-tttk {
+                    text-align: left;
+                    width: 70%;
+                    margin: 0 auto;
+
+                    p {
+                        margin-left: 20px;
+                        font-family: fonttextbicine;
+                        font-size: 22px;
+                    }
+
+                    hr {
+                        border: 1px solid #8d63f0;
+
+                    }
+
+                    span {
+                        font-family: fonttextbicine;
+                        font-size: 20px;
+
+                    }
+
+                    h5 {
+                        margin-top: 20px;
+                        text-align: center;
+                        font-size: 10px;
+
+                    }
+                }
+            }
+        }
+
+        .gach {
+            hr {
+                margin-top: 50px;
+                border: 1px solid white;
+            }
+        }
+
+    }
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .Profile {
+        width: 100%;
+        margin-top: 50px;
+
+        .Profile-trang {
+            border-radius: 20px;
+            width: 70%;
+            height: 720px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px white;
+
+            .Profile-mau {
+                background: linear-gradient(100deg, #8d63f0, #32c5cd);
+                height: 180px;
+                text-align: center;
+                border-radius: 20px;
+
+                h1 {
+                    font-family: fonttextbicine;
+                    color: #8d63f0;
+                    font-size: 50px;
+                }
+
+                img {
+                    margin-top: 60px;
+                    border-radius: 100%;
+                    border: 6px solid white;
+                    width: 200px;
+                }
+
+                .Profile-tttk {
+                    text-align: left;
+                    width: 70%;
+                    margin: 0 auto;
+
+                    p {
+                        margin-left: 20px;
+                        font-family: fonttextbicine;
+                        font-size: 22px;
+                    }
+
+                    hr {
+                        border: 1px solid #8d63f0;
+
+                    }
+
+                    span {
+                        font-family: fonttextbicine;
+                        font-size: 20px;
+
+                    }
+
+                    h5 {
+                        margin-top: 20px;
+                        text-align: center;
+                        font-size: 15px;
+
+                    }
+                }
+            }
+        }
+
+        .gach {
+            hr {
+                margin-top: 50px;
+                border: 1px solid white;
+            }
+        }
+
+    }
+}

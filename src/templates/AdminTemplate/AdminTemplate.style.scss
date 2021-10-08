@@ -1,0 +1,110 @@
+@import "../../assets//variabe.style.scss";
+
+.ant-layout {
+    .ant-layout-sider {
+        .ant-layout-sider-children {
+            background: linear-gradient(100deg, #32c5cd, #8d63f0);
+
+            img {
+                margin-bottom: 10px;
+            }
+
+            ul {
+                background: linear-gradient(100deg, #32c5cd, #8d63f0);
+
+                .ant-menu-item-selected {
+                    background: linear-gradient(100deg, #6fe6ba, #fd626a);
+
+                }
+            }
+        }
+
+        .ant-layout-sider-trigger {
+            display: none;
+
+        }
+    }
+
+    .site-layout {
+        header {
+            background: linear-gradient(100deg, #8d63f0, #32c5cd);
+        }
+
+        .omlai {
+            background: radial-gradient(#541354, #1c0a42);
+
+            .ant-layout-content {
+                .site-layout-background {
+                    .films {
+                        h1 {
+                            color: white;
+                            font-family: fontbicine;
+
+                        }
+
+                        .ant-input-group-wrapper {
+                            margin-bottom: 10px;
+
+                            .ant-input-wrapper {
+                                .ant-input-group-addon {
+                                    button {
+                                        font-family: fonttextbicine;
+                                        font-size: 20px;
+                                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .ant-table-wrapper {
+                            .ant-spin-nested-loading {
+                                .ant-spin-container {
+                                    .ant-table {
+                                        .ant-table-container {
+                                            .ant-table-content {
+                                                table {
+                                                    .ant-table-tbody {
+                                                        .ant-table-row {
+                                                            .ant-table-cell {
+                                                                a {
+                                                                    text-decoration: none;
+                                                                    padding: 10px 15px;
+                                                                    border-radius: 10px;
+                                                                    color: white;
+                                                                    font-family: fonttextbicine;
+                                                                    font-size: 18px;
+                                                                    margin: 0 5px;
+
+                                                                }
+
+                                                                .xoa {}
+
+                                                                .edit {
+                                                                    background-color: #2a92fd;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            footer {
+                background: none;
+                color: white;
+            }
+        }
+    }
+
+    .ant-layout-sider-has-trigger {
+        padding-bottom: 0;
+    }
+}

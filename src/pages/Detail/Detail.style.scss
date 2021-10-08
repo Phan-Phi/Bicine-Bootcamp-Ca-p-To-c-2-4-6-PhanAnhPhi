@@ -1,0 +1,994 @@
+@import "../../assets/variabe.style.scss";
+
+.detail-tong {
+    .eUPHUm {}
+
+    background: linear-gradient(0deg, #8d63f0, transparent);
+
+    .detail {
+        width: 78%;
+        margin: 0 auto;
+
+        .detail-tren {
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+
+        .detail-tren-text {
+            h1 {
+                color: $primary-green;
+                font-family: fontbicine;
+            }
+
+            p {
+                font-family: fonttextbicine;
+                font-size: 25px;
+
+                .mota {
+                    font-size: 22px;
+                }
+
+                .C3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: white;
+                    background-color: #40eea5;
+                    padding: 2px 14px;
+                    border-radius: 7px;
+                    margin-right: 8px;
+                }
+
+                .danhgia {
+                    color: yellow;
+                }
+
+                .dutuoi {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: white;
+                    border: 2px solid white;
+                    padding: 2px 14px;
+                    border-radius: 7px;
+                    margin-right: 8px;
+                }
+            }
+
+            .detail-btn {
+                font-size: 25px;
+
+                font-family: fonttextbicine;
+                padding: 2px 15px;
+                border-radius: 18px;
+                border: 2px solid white;
+                color: white;
+                background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                transition: all 0.5s ease-in-out;
+
+                &:hover {
+                    background: none;
+                    box-shadow: 0 0 6px #ffffff;
+                }
+            }
+
+
+        }
+
+    }
+
+    .video-htr {
+        width: 78%;
+        margin: 0 auto;
+
+        .nav {
+            justify-content: center;
+            align-items: center;
+
+            .nav-item {
+                .nav-link {
+                    font-family: fonttextbicine;
+                    font-size: 23px;
+                    transition: all 0.2s ease-in-out;
+                    margin: 0 10px;
+                    color: white;
+
+                    &:hover {
+                        padding: 5px 15px;
+                        border-radius: 18px;
+                        border: 2px solid white;
+                        color: white;
+                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                        box-shadow: 0 0 6px #ffffff;
+
+                    }
+                }
+
+                .active {
+                    padding: 5px 15px;
+                    border-radius: 18px;
+                    border: 2px solid white;
+                    color: white;
+                    background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                    box-shadow: 0 0 6px #ffffff;
+                }
+            }
+        }
+
+        .tab-content {
+            align-items: center;
+
+
+            .tab-pane {
+                iframe {
+                    width: 100%;
+                }
+
+                .ant-tabs-left {
+
+                    .ant-tabs-nav {
+                        .ant-tabs-nav-wrap {
+                            justify-content: center;
+                            align-items: center;
+
+                            .ant-tabs-nav-list {
+                                .ant-tabs-tab {
+                                    .ant-tabs-tab-btn {
+                                        padding: 5px 13px;
+                                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                                        border: 2px solid white;
+                                        box-shadow: 0 0 6px #ffffff;
+                                        border-radius: 22px;
+                                        opacity: 1;
+
+                                        .htrlogo {}
+                                    }
+                                }
+
+                                .ant-tabs-tab-active {
+                                    opacity: 0.5;
+
+                                }
+
+                                .ant-tabs-ink-bar {
+                                    background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                                    width: 3px;
+                                    box-shadow: 0 0 10px #70166f;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .ant-tabs-content-holder {
+                    background: linear-gradient(100deg, #8d63f0, #32c5cd);
+                    border-radius: 5px;
+                    padding: 10px;
+                    height: 500px;
+                    overflow-y: scroll;
+
+                    .ant-tabs-content {
+                        .ant-tabs-tabpane {
+                            .cumRap-tong {
+                                margin-bottom: 30px;
+                                border-bottom: 1px solid rgb(190, 190, 190);
+
+                                .cumRap {
+                                    padding-bottom: 10px;
+
+                                    .cumRap-img {
+                                        img {
+                                            border-radius: 10px;
+                                        }
+                                    }
+
+                                    .cumRap-ten {
+                                        padding: 0;
+
+                                        p {
+                                            font-family: Roboto;
+                                            font-weight: 600;
+                                            font-size: 25px;
+                                            color: #40eea5;
+                                        }
+
+                                        .cumRap-time {
+
+
+                                            .cumRap-gio {
+                                                background: linear-gradient(100deg, #70166f, #fd626a);
+                                                padding: 5px 0;
+                                                color: white;
+                                                text-align: center;
+                                                border-radius: 10px;
+                                                font-weight: 600;
+                                                text-decoration: none;
+                                                margin: 5px 6px;
+
+                                                &:hover {
+                                                    border: 2px solid white;
+                                                    box-shadow: 0 0 10px #ffffff;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:414px) {
+    .detail-tong {
+        .iHMFOK {
+            padding: 2rem 0;
+        }
+
+
+        background: linear-gradient(0deg, #8d63f0, transparent);
+
+        .detail {
+            width: 78%;
+            margin: 0 auto;
+
+
+
+            .detail-tren {
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+
+
+
+            }
+
+            .detail-tren-text {
+                h1 {
+                    font-size: 25px;
+                }
+
+                .theP {
+                    font-size: 18px;
+
+                    span {
+                        font-size: 18px;
+
+
+                    }
+
+                    .mota {
+                        font-size: 15px;
+                    }
+
+                }
+            }
+
+            .detail-tren-text {
+                h1 {
+                    color: $primary-green;
+                    font-family: fontbicine;
+                }
+
+                p {
+                    font-family: fonttextbicine;
+                    font-size: 25px;
+
+                    .mota {
+                        font-size: 22px;
+                    }
+
+                    .C3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: white;
+                        background-color: #40eea5;
+                        padding: 2px 14px;
+                        border-radius: 7px;
+                        margin-right: 8px;
+                    }
+
+                    .danhgia {
+                        color: yellow;
+                    }
+
+                    .dutuoi {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: white;
+                        border: 2px solid white;
+                        padding: 2px 14px;
+                        border-radius: 7px;
+                        margin-right: 8px;
+                    }
+                }
+
+                .detail-btn {
+                    font-size: 25px;
+
+                    font-family: fonttextbicine;
+                    padding: 2px 15px;
+                    border-radius: 18px;
+                    border: 2px solid white;
+                    color: white;
+                    background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                    transition: all 0.5s ease-in-out;
+
+                    &:hover {
+                        background: none;
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+
+
+            }
+
+        }
+
+        .video-htr {
+            width: 78%;
+            margin: 0 auto;
+
+            .nav {
+                justify-content: center;
+                align-items: center;
+
+                .nav-item {
+                    .nav-link {
+                        font-family: fonttextbicine;
+                        font-size: 23px;
+                        transition: all 0.2s ease-in-out;
+                        margin: 0 10px;
+                        color: white;
+
+                        &:hover {
+                            padding: 5px 15px;
+                            border-radius: 18px;
+                            border: 2px solid white;
+                            color: white;
+                            background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                            box-shadow: 0 0 6px #ffffff;
+
+                        }
+                    }
+
+                    .active {
+                        padding: 5px 15px;
+                        border-radius: 18px;
+                        border: 2px solid white;
+                        color: white;
+                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+            }
+
+            .tab-content {
+                align-items: center;
+
+
+                .tab-pane {
+                    iframe {
+                        width: 100%;
+                    }
+
+                    .ant-tabs-left {
+
+                        .ant-tabs-nav {
+                            .ant-tabs-nav-wrap {
+                                justify-content: center;
+                                align-items: center;
+
+                                .ant-tabs-nav-list {
+                                    .ant-tabs-tab {
+                                        .ant-tabs-tab-btn {
+                                            padding: 5px 13px;
+                                            background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                                            border: 2px solid white;
+                                            box-shadow: 0 0 6px #ffffff;
+                                            border-radius: 22px;
+                                            opacity: 1;
+
+                                            .htrlogo {}
+                                        }
+                                    }
+
+                                    .ant-tabs-tab-active {
+                                        opacity: 0.5;
+
+                                    }
+
+                                    .ant-tabs-ink-bar {
+                                        background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                                        width: 3px;
+                                        box-shadow: 0 0 10px #70166f;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .ant-tabs-content-holder {
+                        background: linear-gradient(100deg, #8d63f0, #32c5cd);
+                        border-radius: 5px;
+                        padding: 10px;
+                        height: 500px;
+                        overflow-y: scroll;
+
+                        .ant-tabs-content {
+                            .ant-tabs-tabpane {
+                                .cumRap-tong {
+                                    margin-bottom: 30px;
+                                    border-bottom: 1px solid rgb(190, 190, 190);
+
+                                    .cumRap {
+                                        padding-bottom: 10px;
+
+                                        .cumRap-img {
+                                            img {
+                                                border-radius: 10px;
+                                            }
+                                        }
+
+                                        .cumRap-ten {
+                                            padding: 0;
+
+                                            p {
+                                                font-family: Roboto;
+                                                font-weight: 600;
+                                                font-size: 25px;
+                                                color: #40eea5;
+                                            }
+
+                                            .cumRap-time {
+
+
+                                                .cumRap-gio {
+                                                    background: linear-gradient(100deg, #70166f, #fd626a);
+                                                    padding: 5px 0;
+                                                    color: white;
+                                                    text-align: center;
+                                                    border-radius: 10px;
+                                                    font-weight: 600;
+                                                    text-decoration: none;
+                                                    margin: 5px 6px;
+
+                                                    &:hover {
+                                                        border: 2px solid white;
+                                                        box-shadow: 0 0 10px #ffffff;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .detail-tong {
+        .iHMFOK {
+            padding: 2rem 0;
+        }
+
+
+        background: linear-gradient(0deg, #8d63f0, transparent);
+
+        .detail {
+            width: 78%;
+            margin: 0 auto;
+
+
+
+            .detail-tren {
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+
+
+
+            }
+
+            .detail-tren-text {
+                h1 {
+                    font-size: 25px;
+                }
+
+                .theP {
+                    font-size: 18px;
+
+                    span {
+                        font-size: 18px;
+
+
+                    }
+
+                    .mota {
+                        font-size: 13px;
+                    }
+
+                }
+            }
+
+            .detail-tren-text {
+                h1 {
+                    font-size: 50px;
+                    color: $primary-green;
+                    font-family: fontbicine;
+                }
+
+                p {
+                    font-family: fonttextbicine;
+                    font-size: 25px;
+
+                    .mota {
+                        font-size: 22px;
+                    }
+
+                    .C3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: white;
+                        background-color: #40eea5;
+                        padding: 2px 14px;
+                        border-radius: 7px;
+                        margin-right: 8px;
+                    }
+
+                    .danhgia {
+                        color: yellow;
+                    }
+
+                    .dutuoi {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: white;
+                        border: 2px solid white;
+                        padding: 2px 14px;
+                        border-radius: 7px;
+                        margin-right: 8px;
+                    }
+                }
+
+                .detail-btn {
+                    font-size: 25px;
+
+                    font-family: fonttextbicine;
+                    padding: 2px 15px;
+                    border-radius: 18px;
+                    border: 2px solid white;
+                    color: white;
+                    background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                    transition: all 0.5s ease-in-out;
+
+                    &:hover {
+                        background: none;
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+
+
+            }
+
+        }
+
+        .video-htr {
+            width: 78%;
+            margin: 0 auto;
+
+            .nav {
+                justify-content: center;
+                align-items: center;
+
+                .nav-item {
+                    .nav-link {
+                        font-family: fonttextbicine;
+                        font-size: 23px;
+                        transition: all 0.2s ease-in-out;
+                        margin: 0 10px;
+                        color: white;
+
+                        &:hover {
+                            padding: 5px 15px;
+                            border-radius: 18px;
+                            border: 2px solid white;
+                            color: white;
+                            background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                            box-shadow: 0 0 6px #ffffff;
+
+                        }
+                    }
+
+                    .active {
+                        padding: 5px 15px;
+                        border-radius: 18px;
+                        border: 2px solid white;
+                        color: white;
+                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+            }
+
+            .tab-content {
+                align-items: center;
+
+
+                .tab-pane {
+                    iframe {
+                        width: 100%;
+                    }
+
+                    .ant-tabs-left {
+
+                        .ant-tabs-nav {
+                            .ant-tabs-nav-wrap {
+                                justify-content: center;
+                                align-items: center;
+
+                                .ant-tabs-nav-list {
+                                    .ant-tabs-tab {
+                                        .ant-tabs-tab-btn {
+                                            padding: 5px 13px;
+                                            background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                                            border: 2px solid white;
+                                            box-shadow: 0 0 6px #ffffff;
+                                            border-radius: 22px;
+                                            opacity: 1;
+
+                                            .htrlogo {}
+                                        }
+                                    }
+
+                                    .ant-tabs-tab-active {
+                                        opacity: 0.5;
+
+                                    }
+
+                                    .ant-tabs-ink-bar {
+                                        background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                                        width: 3px;
+                                        box-shadow: 0 0 10px #70166f;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .ant-tabs-content-holder {
+                        background: linear-gradient(100deg, #8d63f0, #32c5cd);
+                        border-radius: 5px;
+                        padding: 10px;
+                        height: 500px;
+                        overflow-y: scroll;
+
+                        .ant-tabs-content {
+                            .ant-tabs-tabpane {
+                                .cumRap-tong {
+                                    margin-bottom: 30px;
+                                    border-bottom: 1px solid rgb(190, 190, 190);
+
+                                    .cumRap {
+                                        padding-bottom: 10px;
+
+                                        .cumRap-img {
+                                            img {
+                                                border-radius: 10px;
+                                            }
+                                        }
+
+                                        .cumRap-ten {
+                                            padding: 0;
+
+                                            p {
+                                                font-family: Roboto;
+                                                font-weight: 600;
+                                                font-size: 25px;
+                                                color: #40eea5;
+                                            }
+
+                                            .cumRap-time {
+
+
+                                                .cumRap-gio {
+                                                    background: linear-gradient(100deg, #70166f, #fd626a);
+                                                    padding: 5px 0;
+                                                    color: white;
+                                                    text-align: center;
+                                                    border-radius: 10px;
+                                                    font-weight: 600;
+                                                    text-decoration: none;
+                                                    margin: 5px 6px;
+
+                                                    &:hover {
+                                                        border: 2px solid white;
+                                                        box-shadow: 0 0 10px #ffffff;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1119px) {
+    .detail-tong {
+
+        .iHMFOK {
+            padding: 2rem 0;
+        }
+
+
+        background: linear-gradient(0deg, #8d63f0, transparent);
+
+        .detail {
+            width: 78%;
+            margin: 0 auto;
+
+
+
+            .detail-tren {
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+
+
+
+            }
+
+            .detail-tren-text {
+                h1 {
+                    font-size: 50px;
+                }
+
+                .theP {
+                    font-size: 30px;
+
+                    span {
+                        font-size: 30px;
+
+
+                    }
+
+                    .mota {
+                        font-size: 18px;
+                    }
+
+                }
+            }
+
+            .detail-tren-text {
+                h1 {
+                    color: $primary-green;
+                    font-family: fontbicine;
+                }
+
+                p {
+                    font-family: fonttextbicine;
+                    font-size: 25px;
+
+                    .mota {
+                        font-size: 22px;
+                    }
+
+                    .C3 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: white;
+                        background-color: #40eea5;
+                        padding: 2px 14px;
+                        border-radius: 7px;
+                        margin-right: 8px;
+                    }
+
+                    .danhgia {
+                        color: yellow;
+                    }
+
+                    .dutuoi {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: white;
+                        border: 2px solid white;
+                        padding: 2px 14px;
+                        border-radius: 7px;
+                        margin-right: 8px;
+                    }
+                }
+
+                .detail-btn {
+                    font-size: 25px;
+
+                    font-family: fonttextbicine;
+                    padding: 2px 15px;
+                    border-radius: 18px;
+                    border: 2px solid white;
+                    color: white;
+                    background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                    transition: all 0.5s ease-in-out;
+
+                    &:hover {
+                        background: none;
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+
+
+            }
+
+        }
+
+        .video-htr {
+            width: 78%;
+            margin: 0 auto;
+
+            .nav {
+                justify-content: center;
+                align-items: center;
+
+                .nav-item {
+                    .nav-link {
+                        font-family: fonttextbicine;
+                        font-size: 23px;
+                        transition: all 0.2s ease-in-out;
+                        margin: 0 10px;
+                        color: white;
+
+                        &:hover {
+                            padding: 5px 15px;
+                            border-radius: 18px;
+                            border: 2px solid white;
+                            color: white;
+                            background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                            box-shadow: 0 0 6px #ffffff;
+
+                        }
+                    }
+
+                    .active {
+                        padding: 5px 15px;
+                        border-radius: 18px;
+                        border: 2px solid white;
+                        color: white;
+                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+            }
+
+            .tab-content {
+                align-items: center;
+
+
+                .tab-pane {
+                    iframe {
+                        width: 100%;
+                    }
+
+                    .ant-tabs-left {
+
+                        .ant-tabs-nav {
+                            .ant-tabs-nav-wrap {
+                                justify-content: center;
+                                align-items: center;
+
+                                .ant-tabs-nav-list {
+                                    .ant-tabs-tab {
+                                        .ant-tabs-tab-btn {
+                                            padding: 5px 13px;
+                                            background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                                            border: 2px solid white;
+                                            box-shadow: 0 0 6px #ffffff;
+                                            border-radius: 22px;
+                                            opacity: 1;
+
+                                            .htrlogo {}
+                                        }
+                                    }
+
+                                    .ant-tabs-tab-active {
+                                        opacity: 0.5;
+
+                                    }
+
+                                    .ant-tabs-ink-bar {
+                                        background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                                        width: 3px;
+                                        box-shadow: 0 0 10px #70166f;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .ant-tabs-content-holder {
+                        background: linear-gradient(100deg, #8d63f0, #32c5cd);
+                        border-radius: 5px;
+                        padding: 10px;
+                        height: 500px;
+                        overflow-y: scroll;
+
+                        .ant-tabs-content {
+                            .ant-tabs-tabpane {
+                                .cumRap-tong {
+                                    margin-bottom: 30px;
+                                    border-bottom: 1px solid rgb(190, 190, 190);
+
+                                    .cumRap {
+                                        padding-bottom: 10px;
+
+                                        .cumRap-img {
+                                            img {
+                                                border-radius: 10px;
+                                            }
+                                        }
+
+                                        .cumRap-ten {
+                                            padding: 0;
+
+                                            p {
+                                                font-family: Roboto;
+                                                font-weight: 600;
+                                                font-size: 25px;
+                                                color: #40eea5;
+                                            }
+
+                                            .cumRap-time {
+
+
+                                                .cumRap-gio {
+                                                    background: linear-gradient(100deg, #70166f, #fd626a);
+                                                    padding: 5px 0;
+                                                    color: white;
+                                                    text-align: center;
+                                                    border-radius: 10px;
+                                                    font-weight: 600;
+                                                    text-decoration: none;
+                                                    margin: 5px 6px;
+
+                                                    &:hover {
+                                                        border: 2px solid white;
+                                                        box-shadow: 0 0 10px #ffffff;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

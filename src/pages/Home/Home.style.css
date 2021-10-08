@@ -1,0 +1,5 @@
+@media only screen and(max-width:414px) {
+  .nav-item-left {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,182 @@
+@import "../../assets//variabe.style.scss";
+
+.DKEmail {
+    background: linear-gradient(100deg, #8d63f0, #32c5cd);
+    padding: 30px 0;
+
+
+
+    h4 {
+        font-family: fontbicine;
+        color: $primary-green;
+        text-align: center;
+        font-size: 35px;
+
+    }
+
+    h3 {
+        text-align: center;
+        font-family: fontbicine;
+        font-size: 45px;
+        color: white;
+        margin-bottom: 20px;
+
+    }
+
+    .DKEmail-btn {
+        text-align: center;
+
+        input {
+            background-color: #173054;
+            border: none;
+            padding: 8px 5px;
+            border-radius: 10px;
+            width: 50%;
+            color: $primary-green;
+            margin-right: 20px;
+        }
+
+        button {
+            background: linear-gradient(100deg, #6fe6ba, #fd626a);
+            padding: 3px 25px;
+            border: 2px solid white;
+            font-family: fonttextbicine;
+            border-radius: 10px;
+            font-size: 20px;
+            color: white;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+                background: none;
+                box-shadow: 0 0 6px #ffffff;
+
+            }
+
+
+        }
+    }
+
+
+}
+
+@media only screen and(max-width:414px) {
+    .DKEmail {
+        background: linear-gradient(100deg, #8d63f0, #32c5cd);
+        padding: 30px 0;
+
+
+
+        h4 {
+            font-family: fontbicine;
+            color: $primary-green;
+            text-align: center;
+            font-size: 19px;
+
+        }
+
+        h3 {
+            text-align: center;
+            font-family: fontbicine;
+            font-size: 22px;
+            color: white;
+            margin-bottom: 20px;
+
+        }
+
+        .DKEmail-btn {
+            text-align: center;
+
+            input {
+                background-color: #173054;
+                border: none;
+                padding: 8px 5px;
+                border-radius: 10px;
+                width: 50%;
+                color: $primary-green;
+                margin-right: 20px;
+            }
+
+            button {
+                background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                padding: 3px 25px;
+                border: 2px solid white;
+                font-family: fonttextbicine;
+                border-radius: 10px;
+                font-size: 20px;
+                color: white;
+                transition: all 0.4s ease-in-out;
+
+                &:hover {
+                    background: none;
+                    box-shadow: 0 0 6px #ffffff;
+
+                }
+
+
+            }
+        }
+
+
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .DKEmail {
+        background: linear-gradient(100deg, #8d63f0, #32c5cd);
+        padding: 30px 0;
+
+
+
+        h4 {
+            font-family: fontbicine;
+            color: $primary-green;
+            text-align: center;
+            font-size: 38px;
+
+        }
+
+        h3 {
+            text-align: center;
+            font-family: fontbicine;
+            font-size: 39px;
+            color: white;
+            margin-bottom: 20px;
+
+        }
+
+        .DKEmail-btn {
+            text-align: center;
+
+            input {
+                background-color: #173054;
+                border: none;
+                padding: 8px 5px;
+                border-radius: 10px;
+                width: 50%;
+                color: $primary-green;
+                margin-right: 20px;
+            }
+
+            button {
+                background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                padding: 3px 25px;
+                border: 2px solid white;
+                font-family: fonttextbicine;
+                border-radius: 10px;
+                font-size: 20px;
+                color: white;
+                transition: all 0.4s ease-in-out;
+
+                &:hover {
+                    background: none;
+                    box-shadow: 0 0 6px #ffffff;
+
+                }
+
+
+            }
+        }
+
+
+    }
+}
