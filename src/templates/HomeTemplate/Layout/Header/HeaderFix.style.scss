@@ -1,0 +1,166 @@
+.headerFix {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    background: linear-gradient(100deg, #32c5cd, #8d63f0);
+
+    .headerFix-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+
+
+        .headerFix-logo {
+            width: 14%;
+        }
+
+        .headerFix-content {
+            display: flex;
+            list-style: none;
+            margin-bottom: 0;
+            // margin-left: 160px;
+
+            .nav-link {
+                color: white;
+                font-family: fonttextbicine;
+                font-size: 25px;
+                padding: 5px 13px;
+                border-radius: 8px;
+                transition: all 0.5s ease-in-out;
+
+                &:hover {
+                    padding: 0 13px;
+                    margin: 0 10px;
+                    background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                    border: 2px solid white;
+                    box-shadow: 0 0 6px #ffffff;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .header-DK {
+            .nav-DK {
+
+                color: white;
+                font-family: fonttextbicine;
+                font-size: 20px;
+                background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                border: 2px solid white;
+                border-radius: 10px;
+                padding: 0 22px;
+                transition: all 0.4s ease-in-out;
+                margin-left: 15px;
+
+                &:hover {
+                    background: none;
+                    box-shadow: 0 0 6px #ffffff;
+                }
+            }
+
+            .nav-DN {
+                color: white;
+                font-family: fonttextbicine;
+                font-size: 20px;
+                background: linear-gradient(100deg, #6fe6ba, #fd626a);
+
+                border: 2px solid white;
+                border-radius: 10px;
+                padding: 0 13px;
+                margin-left: 10px;
+                transition: all 0.4s ease-in-out;
+
+                &:hover {
+                    background: none;
+                    box-shadow: 0 0 6px #ffffff;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .headerFix {
+        padding: 0.5rem 1rem;
+        width: 100%;
+        background: linear-gradient(100deg, #32c5cd, #8d63f0);
+
+        .headerFix-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 95%;
+            margin: 0 auto;
+
+
+            .headerFix-logo {
+                width: 14%;
+            }
+
+            .headerFix-content {
+                display: none;
+                list-style: none;
+                margin-bottom: 0;
+                // margin-left: 160px;
+
+                .nav-link {
+                    color: white;
+                    font-family: fonttextbicine;
+                    font-size: 25px;
+                    padding: 5px 13px;
+                    border-radius: 8px;
+                    transition: all 0.5s ease-in-out;
+
+                    &:hover {
+                        padding: 0 13px;
+                        margin: 0 10px;
+                        background: linear-gradient(100deg, #7efd9e, #2a92fd);
+                        border: 2px solid white;
+                        box-shadow: 0 0 6px #ffffff;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+            .header-DK {
+                .nav-DK {
+
+                    color: white;
+                    font-family: fonttextbicine;
+                    font-size: 20px;
+                    background: linear-gradient(100deg, #6fe6ba, #fd626a);
+                    border: 2px solid white;
+                    border-radius: 10px;
+                    padding: 0 22px;
+                    transition: all 0.4s ease-in-out;
+                    margin-left: 15px;
+
+                    &:hover {
+                        background: none;
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+
+                .nav-DN {
+                    color: white;
+                    font-family: fonttextbicine;
+                    font-size: 20px;
+                    background: linear-gradient(100deg, #6fe6ba, #fd626a);
+
+                    border: 2px solid white;
+                    border-radius: 10px;
+                    padding: 0 13px;
+                    margin-left: 10px;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover {
+                        background: none;
+                        box-shadow: 0 0 6px #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+}
