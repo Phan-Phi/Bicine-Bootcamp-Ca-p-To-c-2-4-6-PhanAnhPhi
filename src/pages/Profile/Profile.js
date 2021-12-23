@@ -22,7 +22,7 @@ export default function Profile() {
               Tài Khoản: <span>{userLogin.taiKhoan}</span>
             </p>
             <p>
-              Họ Tên:{" "}
+              Họ Tên:
               <span>
                 {userLogin.hoTen} {userLogin.hoTen} {userLogin.hoTen}
               </span>

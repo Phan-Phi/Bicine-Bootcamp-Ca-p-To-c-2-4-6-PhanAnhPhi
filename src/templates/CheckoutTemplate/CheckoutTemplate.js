@@ -2,6 +2,7 @@ import { Fragment, useEffect } from "react";
 import { Redirect, Route } from "react-router";
 import { USER_LOGIN } from "../../util/settings/config";
 import Header from "..//HomeTemplate/Layout/Header/Header";
+import HeaderFix from "../HomeTemplate/Layout/Header/HeaderFix";
 
 const CheckoutTemplate = (props) => {
   const { Component, ...restProps } = props;
@@ -19,7 +20,7 @@ const CheckoutTemplate = (props) => {
       render={(propsRoute) => {
         return (
           <Fragment>
-            <Header {...propsRoute} />
+            <HeaderFix {...propsRoute} />
 
             <Component {...propsRoute} />
           </Fragment>
