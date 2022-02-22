@@ -9,6 +9,7 @@ import "./Checkou.style.css";
 import { DAT_VE } from "../../redux/actions/types/QuanLyDatVeType";
 import { ThongTinDatVe } from "../../_core/models/ThongTinDatVe";
 import { Tabs, Radio, Space } from "antd";
+import { NavLink } from "react-router-dom";
 
 function Checkout(props) {
   const { userLogin } = useSelector((state) => state.QuanLyNguoiDungReducer);
@@ -65,6 +66,13 @@ function Checkout(props) {
         </Fragment>
       );
     });
+  };
+
+  const handeDatVe = () => {
+    const datVe = document.querySelector(".Checkout-thanhcong-content-lon");
+    const datVe2 = document.querySelector(".Checkout-thanhcong-content");
+    datVe.style.display = "block";
+    datVe2.style.opacity = "1";
   };
 
   return (
@@ -167,17 +175,29 @@ function Checkout(props) {
           <hr />
           <div className="datVe">
             <button
-              onClick={() => {
-                const thongTinDatVe = new ThongTinDatVe();
-                thongTinDatVe.maLichChieu = props.match.params.id;
-                thongTinDatVe.danhSachVe = danhSachGheDangDat;
-                console.log(thongTinDatVe);
-                dispatch(datVeAction(thongTinDatVe));
-              }}
+              // onClick={() => {
+              //   const thongTinDatVe = new ThongTinDatVe();
+              //   thongTinDatVe.maLichChieu = props.match.params.id;
+              //   thongTinDatVe.danhSachVe = danhSachGheDangDat;
+              //   console.log(thongTinDatVe);
+              //   dispatch(datVeAction(thongTinDatVe));
+              // }}
+              onClick={handeDatVe}
             >
               Đặt Vé
             </button>
           </div>
+        </div>
+      </div>
+
+      <div className="Checkout-thanhcong">
+        <div className="Checkout-thanhcong-content-lon"></div>
+        <div className="Checkout-thanhcong-content">
+          <i class="far fa-check-circle"></i>
+          <h3>Đăng Ký Thành Công</h3>
+          <button>
+            <NavLink to="/">Về Trang Chủ</NavLink>
+          </button>
         </div>
       </div>
     </div>

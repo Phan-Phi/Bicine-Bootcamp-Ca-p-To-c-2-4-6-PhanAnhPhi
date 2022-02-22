@@ -4,7 +4,7 @@ import {
   SET_THONG_TIN_NGUOI_DUNG,
 } from "../actions/types/QuanLyNguoiDungType";
 
-let user = {};
+let user = { taiKhoan: "string3333" };
 if (localStorage.getItem(USER_LOGIN)) {
   user = JSON.parse(localStorage.getItem(USER_LOGIN));
 }

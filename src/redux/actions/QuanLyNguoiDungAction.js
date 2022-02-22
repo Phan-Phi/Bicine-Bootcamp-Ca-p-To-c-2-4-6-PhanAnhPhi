@@ -6,17 +6,21 @@ import {
 } from "./types/QuanLyNguoiDungType";
 
 export const dangNhapAction = (thongTinDangNhap) => {
-  return async (dispatch) => {
+  return async (dis) => {
     try {
       const result = await quanLyNguoiDungService.dangNhap(thongTinDangNhap);
       console.log("dadasdasdasdasdadadad", result);
 
-      dispatch({
+      // const memay = {
+      //   type: DANG_NHAP_ACTION,
+      //   thongTinDangNhap: result.data,
+      // };
+      dis({
         type: DANG_NHAP_ACTION,
         thongTinDangNhap: result.data,
       });
 
-      history.goBack();
+      // history.goBack();
     } catch (error) {
       console.log("error", error.response.data);
     }

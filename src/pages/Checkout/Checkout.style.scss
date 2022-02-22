@@ -37,8 +37,68 @@
 
 
 .Checkout {
-
     min-height: 100vh;
+
+    .Checkout-thanhcong {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .Checkout-thanhcong-content-lon {
+            background-color: rgba(0, 0, 0, 0.253);
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 10;
+            display: none;
+            // align-items: center;
+            // justify-content: center;
+
+        }
+
+        .Checkout-thanhcong-content {
+            position: fixed;
+            top: 30%;
+            // left: 25%;
+            width: 30%;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            opacity: 0;
+            z-index: 11;
+            transition: opacity ease 0.6s;
+
+            i {
+                color: #6fe683;
+                font-size: 135px;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                font-family: $font-bicine2;
+                font-size: 47px;
+                margin-bottom: 20px;
+            }
+
+            button {
+                border: none;
+                background: $bg-color-btn;
+                border-radius: 10px;
+                padding: 10px;
+
+                a {
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+                }
+            }
+        }
+    }
 
     .Checkout-tong {
         width: 100%;
@@ -295,8 +355,6 @@
                     }
 
                 }
-
-
             }
         }
     }
@@ -315,6 +373,67 @@
         // width: 100%;
 
         min-height: 100vh;
+
+        .Checkout-thanhcong {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .Checkout-thanhcong-content-lon {
+                background-color: rgba(0, 0, 0, 0.253);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 10;
+                display: none;
+                // align-items: center;
+                // justify-content: center;
+
+            }
+
+            .Checkout-thanhcong-content {
+                position: fixed;
+                top: 30%;
+                // left: 25%;
+                width: 53%;
+                background: white;
+                padding: 20px;
+                border-radius: 15px;
+                text-align: center;
+                opacity: 0;
+                z-index: 11;
+                transition: opacity ease 0.6s;
+
+                i {
+                    color: #6fe683;
+                    font-size: 77px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-family: $font-bicine2;
+                    font-size: 23px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    border: none;
+                    background: $bg-color-btn;
+                    border-radius: 10px;
+                    padding: 6px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 13px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                    }
+                }
+            }
+        }
 
         .Checkout-tong {
             width: 100%;
@@ -548,6 +667,67 @@
 
         min-height: 100vh;
 
+        .Checkout-thanhcong {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .Checkout-thanhcong-content-lon {
+                background-color: rgba(0, 0, 0, 0.253);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 10;
+                display: none;
+                // align-items: center;
+                // justify-content: center;
+
+            }
+
+            .Checkout-thanhcong-content {
+                position: fixed;
+                top: 30%;
+                // left: 25%;
+                width: 48%;
+                background: white;
+                padding: 20px;
+                border-radius: 15px;
+                text-align: center;
+                opacity: 0;
+                z-index: 11;
+                transition: opacity ease 0.6s;
+
+                i {
+                    color: #6fe683;
+                    font-size: 77px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-family: $font-bicine2;
+                    font-size: 23px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    border: none;
+                    background: $bg-color-btn;
+                    border-radius: 10px;
+                    padding: 6px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 13px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                    }
+                }
+            }
+        }
+
         .Checkout-tong {
             width: 100%;
             margin: 0;
@@ -780,6 +960,67 @@
 
         min-height: 100vh;
 
+        .Checkout-thanhcong {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .Checkout-thanhcong-content-lon {
+                background-color: rgba(0, 0, 0, 0.253);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 10;
+                display: none;
+                // align-items: center;
+                // justify-content: center;
+
+            }
+
+            .Checkout-thanhcong-content {
+                position: fixed;
+                top: 30%;
+                // left: 25%;
+                width: 48%;
+                background: white;
+                padding: 20px;
+                border-radius: 15px;
+                text-align: center;
+                opacity: 0;
+                z-index: 11;
+                transition: opacity ease 0.6s;
+
+                i {
+                    color: #6fe683;
+                    font-size: 135px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-family: $font-bicine2;
+                    font-size: 47px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    border: none;
+                    background: $bg-color-btn;
+                    border-radius: 10px;
+                    padding: 10px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                    }
+                }
+            }
+        }
+
         .Checkout-tong {
             width: 100%;
             margin: 0;
@@ -1011,6 +1252,67 @@
         // width: 100%;
 
         min-height: 100vh;
+
+        .Checkout-thanhcong {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .Checkout-thanhcong-content-lon {
+                background-color: rgba(0, 0, 0, 0.253);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 10;
+                display: none;
+                // align-items: center;
+                // justify-content: center;
+
+            }
+
+            .Checkout-thanhcong-content {
+                position: fixed;
+                top: 30%;
+                // left: 25%;
+                width: 40%;
+                background: white;
+                padding: 20px;
+                border-radius: 15px;
+                text-align: center;
+                opacity: 0;
+                z-index: 11;
+                transition: opacity ease 0.6s;
+
+                i {
+                    color: #6fe683;
+                    font-size: 135px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-family: $font-bicine2;
+                    font-size: 47px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    border: none;
+                    background: $bg-color-btn;
+                    border-radius: 10px;
+                    padding: 10px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                    }
+                }
+            }
+        }
 
         .Checkout-tong {
             width: 100%;
@@ -1245,6 +1547,67 @@
         // width: 100%;
 
         min-height: 100vh;
+
+        .Checkout-thanhcong {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .Checkout-thanhcong-content-lon {
+                background-color: rgba(0, 0, 0, 0.253);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 10;
+                display: none;
+                // align-items: center;
+                // justify-content: center;
+
+            }
+
+            .Checkout-thanhcong-content {
+                position: fixed;
+                top: 30%;
+                // left: 25%;
+                width: 40%;
+                background: white;
+                padding: 20px;
+                border-radius: 15px;
+                text-align: center;
+                opacity: 0;
+                z-index: 11;
+                transition: opacity ease 0.6s;
+
+                i {
+                    color: #6fe683;
+                    font-size: 135px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-family: $font-bicine2;
+                    font-size: 47px;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    border: none;
+                    background: $bg-color-btn;
+                    border-radius: 10px;
+                    padding: 10px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                    }
+                }
+            }
+        }
 
         .Checkout-tong {
             width: 100%;

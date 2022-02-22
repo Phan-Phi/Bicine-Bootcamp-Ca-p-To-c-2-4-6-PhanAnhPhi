@@ -15,7 +15,7 @@ export default function Film(props) {
           <span>P</span>
           {phim.tenPhim.length > 18
             ? phim.tenPhim.substr(0, 18) + "..."
-            : phim.tenPhim}{" "}
+            : phim.tenPhim}
         </a>
         <br />
 
